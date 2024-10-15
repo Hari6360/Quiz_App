@@ -1,3 +1,4 @@
+import React from "react";
 import { Provider } from "react-redux";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { QuizSetup } from "./routes/QuizSetup";

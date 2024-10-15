@@ -1,3 +1,12 @@
+import React from "react";
+import {
+	SETUP_QUIZ,
+	FETCH_QUES_SUCCESS,
+	FETCH_QUES_FAIL,
+	FETCH_CURRENT_QUES,
+	SUBMIT_QUIZ,
+} from "./actions";
+
 const initState = {
 	quizSetup: {},
 	questions: [],
